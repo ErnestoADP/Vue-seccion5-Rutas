@@ -3,9 +3,9 @@
       <h1>Seis pasos para trabajar con Rutas</h1>
       <router-view></router-view>
       <hr>
-      <router-link to="/"> Inicio</router-link>
+      <router-link tag="li" exact to="/"> <a>Inicio</a> </router-link>
       <hr>
-      <router-link to="/Blog">Blog</router-link>
+      <router-link tag="li" to="/Blog"><a>Blog</a> </router-link>
 
   </div>
 </template>
@@ -22,5 +22,8 @@ export default {
 </script>
 
 <style>
+.router-link-active a{
+  color:green;
+}
 
 </style>
