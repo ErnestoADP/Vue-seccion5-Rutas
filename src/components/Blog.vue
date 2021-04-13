@@ -12,12 +12,19 @@ Tristes. Tristes.</p>
 <p>Tristes hombres<br>
 si no mueren de amores.<br>
 Tristes. Tristes.</p>
+
+<button @click="volverInicio">Volver</button>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Blog'
+        name: 'Blog',
+        methods: {
+            volverInicio(){
+                this.$router.push('/', console.log('as vuelto') )
+            }
+        }
     }
 </script>
 

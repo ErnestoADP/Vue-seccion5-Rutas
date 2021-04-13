@@ -7,6 +7,11 @@
       <hr>
       <router-link tag="li" to="/Blog"><a>Blog</a> </router-link>
 
+
+
+      <hr>
+      <h1>holo</h1>
+
   </div>
 </template>
 
