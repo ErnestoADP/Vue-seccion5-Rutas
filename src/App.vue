@@ -6,8 +6,10 @@
       <router-link tag="li" exact to="/"> <a>Inicio</a> </router-link>
       <hr>
       <router-link tag="li" to="/Blog"><a>Blog</a> </router-link>
-
-
+      <hr>
+      <router-link tag="li" to="/Post/123"><a>Post</a> </router-link>
+      <hr>
+      <router-link tag="li" to="/Post/123232"><a>Post</a> </router-link>
 
       <hr>
       <h1>holo</h1>
