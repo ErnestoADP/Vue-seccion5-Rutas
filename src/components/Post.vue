@@ -1,6 +1,6 @@
 <template>
     <div>
-            <h1>Recepcion del parametro de la ruta</h1>
+            <h1 >Recepcion del parametro de la ruta</h1>
             <p>{{id}}</p>     
     </div>
 </template>

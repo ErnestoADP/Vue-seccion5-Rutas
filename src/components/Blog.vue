@@ -1,6 +1,6 @@
 <template>
     <div>
-            <h1>Blog</h1>
+            <h3 v-alerta="45">Blog</h3>
             <p>Tristes guerras<br>
 si no es amor la empresa.<br>
 Tristes. Tristes.</p>
